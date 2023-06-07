@@ -10,19 +10,9 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 app.listen(3000);
-
-app.get("/", function(request, response){
-
-    response.render("home");
-});
-
-app.get("/test", function(request, response){
-
-    response.render("test");
-});
-
+ 
 // Define a route to render the produit.json file
-app.get('/produits', (req, res) => {
+app.get('/', (req, res) => {
     // Read the produit.json file
     const filePath = path.join(__dirname, 'produits.json');
     fs.readFile(filePath, 'utf8', (err, data) => { 

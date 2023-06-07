@@ -1,0 +1,33 @@
+{
+  "produits": [
+
+    {
+      "id": 1,
+      "description": "HP portatif",
+      "image": "1.jpg",
+      "prix": "350.95",
+      "details": "MSI 15.6 po GF659SEXR-436p, Intel Corei-79750H, 16GB RAM, 512GB SSD, Win10, Noir"
+    },
+    {
+      "id": 2,
+      "description": "Portatif Macbook Pro MF839LA",
+      "image": "2.jpg",
+      "prix": "1549.95",
+      "details": "MSI 15.6 po GF659SEXR-436p, Intel Corei-79750H, 16GB RAM, 512GB SSD, Win10, Noir"
+    },
+    {
+      "id": 3,
+      "description": "Portatif Macbook Air MJVE2C",
+      "image": "3.jpg",
+      "prix": "1990.95",
+      "details": "MSI 15.6 po GF659SEXR-436p, Intel Corei-79750H, 16GB RAM, 512GB SSD, Win10, Noir"
+    },
+    {
+      "id": 4,
+      "description": "MSI Portatif de jeu Leopard",
+      "image": "4.jpg",
+      "prix": "1099.95",
+      "details": "MSI 15.6 po GF659SEXR-436p, Intel Corei-79750H, 16GB RAM, 512GB SSD, Win10, Noir"
+    }
+  ]
+}

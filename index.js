@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 app.listen(3000);
  
 // Define a route to render the produit.json file
-app.get('/', (req, res) => {
+  app.get('/', (req, res) => {
     // Read the produit.json file
     const filePath = path.join(__dirname, 'produits.json');
     fs.readFile(filePath, 'utf8', (err, data) => { 
@@ -39,5 +39,12 @@ app.get('/', (req, res) => {
     );
   });
  
+  app.get('/home', (req, res) => { 
+    res.render("home");  
+  });
+
+  app.get('/test', (req, res) => { 
+    res.render("test");  
+  });
  
   

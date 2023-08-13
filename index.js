@@ -14,7 +14,8 @@ app.set("views", "./views");
 
 // Add this middleware to set up CORS headers
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000', 'https://my-react-app2023.netlify.app/', '*', 'https://my-react-app-virid-psi.vercel.app/' ); // Replace with your frontend's URL
+  // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000',   ); // Replace with your frontend's URL
+  res.setHeader('Access-Control-Allow-Origin', '*'); // Allow requests from any origin
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   next();
